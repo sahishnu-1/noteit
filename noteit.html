@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note it</title>
+    <link rel="stylesheet" href="noteit.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Store Text</h1>
+        <div id="notesContainer" class="notes-container">
+            <!-- Notes will be dynamically added here -->
+        </div>
+        <div class="add-options">
+            <div class="options" id="options">
+                <div onclick="addTextNote()">Add Text Note</div>
+                <!-- Add other options as needed -->
+            </div>
+            <div class="add-button" onclick="showOptions()">
+                <span class="plus">+</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="noteit.js"></script>
+</body>
+</html>
